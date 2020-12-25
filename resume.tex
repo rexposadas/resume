@@ -1,0 +1,199 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wilson Resume/CV
+% XeLaTeX Template
+% Version 1.0 (22/1/2015)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Howard Wilson (https://github.com/watsonbox/cv_template_2004) with
+% extensive modifications by Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Default font size
+
+\input{structure.tex} % Include the file specifying document layout
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Rex Posadas} % Print the main header
+
+%------------------------------------------------
+
+\parbox{0.5\textwidth}{ % First block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Address} \> 1724 Lady Grey Avenue,\\ % Address line 1
+\> Pflugerville, TX  78660 \\ % Address line 2
+% {\bf Date of Birth} \> 7$^{th}$ September 1979 \\ % Date of birth 
+% {\bf Nationality} \> British % Nationality
+\end{tabbing}}
+\hfill % Horizontal space between the two blocks
+\parbox{0.5\textwidth}{ % Second block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+% {\bf Home Phone} \> +0 (000) 111 1111 \\ % Home phone
+{\bf Mobile Phone} \> 737 228 3482 \\ % Mobile phone
+{\bf Email} \> \href{mailto:rexposadas@gmail.com}{rexposadas@gmail.com} \\ % Email address
+\end{tabbing}}
+
+
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT HISTORY SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Employment History}
+
+\job
+{Jan 2019 -}{Present}
+{Contractor, Austin, TX}
+{}
+{Engineering Manager/Technical Team Lead}
+{\\
+
+\begin{itemize-noindent}
+\item{Key personnel in client's product execution: From concept, to managing a distributed team and software around it and then delivering the product to the market.}
+\item{Led distributed team using Agile. Managed Scrum meetings and sprint goals.}
+\item{Technologies used included AWS, Google Cloud Platform, Makefiles, Kubernetes, Docker, Golang and Postgres.}
+\end{itemize-noindent}
+}
+
+%------------------------------------------------
+
+\job
+{Sep 2014 -}{Dec 2018}
+{Agrarian Labs, Austin, TX}
+{}
+{Co-founder and Head of Engineering}
+{
+
+\begin{itemize-noindent}
+\item{Architected a high-volume IoT application.  The application receives over 10Gigs of data per day from IoT devices distributed across the United States.}
+\item{Executive team member responsible for technical recruiting. Recruiting strategies included organizing a technical Meetup and participating in South by Southwest (SXSW is an Austin conference and festival).}
+\item{We were finalists in SXSW in the Enterprise and Smart Data category.}
+\item{Technology used included AWS, Kubernetes, Docker, Makefiles, Golang, DynamoDB and Postgres, Redis, and Swift (mobile on iOS).}
+\end{itemize-noindent}
+}
+
+%------------------------------------------------
+
+\job
+{Apr 2014 -}{Dec 2014}
+{MomentumSI (acquired by VMWare), Austin, TX}
+{}
+{Senior Engineer}
+{
+\begin{itemize-noindent}
+\item{Built a Linux container management system using Go, NSQ, Docker and the ELK stack.}
+\item{Contributed documentation and Docker images to the NSQ open-source project.}
+\end{itemize-noindent}
+}
+
+%------------------------------------------------
+
+\job
+{Oct 2013 -}{Dec 2014}
+{Vubeology, Austin, TX}
+{}
+{Senior Engineer}
+{
+\begin{itemize-noindent}
+\item{Built a mission critical advertising module for a video streaming platform. Response times for serving advertisements are in the 10-millisecond range.} 
+\item{Established a baseline product quality by creating a simulation engine.} 
+\item{Created a Map-Reduce module for aggregating metrics data.}
+\end{itemize-noindent}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	IT/COMPUTING SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Software Engineering Skills}
+
+\skillgroup{Programming Languages}
+{
+\textit{Ruby} - MRI 1.8.7, 1.9.2\\
+\textit{ASP.NET, C\#, VB.NET}\\
+\textit{PHP}\\
+\textit{Java/Scala}
+}
+
+%------------------------------------------------
+
+\skillgroup{Web Development}
+{
+\textit{HTML5, CSS3/SASS, JavaScript/CoffeeScript/jQuery}\\
+\textit{Ruby on Rails v3.1}\\
+\textit{Test:Unit, RSpec, Cucumber, Selenium} - automated testing frameworks\\
+\textit{Apache/Nginx Web Servers}\\
+}
+
+%------------------------------------------------
+
+\skillgroup{Miscellaneous}
+{
+\textit{Microsoft SQL Server 2000/2005} - database architecture and administration\\
+\textit{Transact-SQL} - data definition and manipulation\\
+\textit{SQL Profiler} - performance tuning and debugging\\
+\textit{MySQL Server}\\
+\textit{CVS, DARCS, git} - source version control
+}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\interestsgroup{
+\interest{Badminton, Tennis, Running, Cycling, Sailing}
+\interest{Travelling}
+\interest{Creative Writing}
+\interest{Photography}
+\interest{Car Mechanics}
+}
+
+%----------------------------------------------------------------------------------------
+%	REFEREE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Referees}
+
+\parbox{0.5\textwidth}{ % First block
+\begin{tabbing}
+\hspace{2.75cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Name} \> Bill Lumbergh \\ % Referee name
+{\bf Company} \> Initech Inc. \\ % Referee company
+{\bf Position} \> Vice President \\ % Referee job title 
+{\bf Contact} \> \href{mailto:bill@initech.com}{bill@initech.com} % Referee contact information
+\end{tabbing}}
+\hfill % Horizontal space between the two blocks
+\parbox{0.5\textwidth}{ % Second block
+\begin{tabbing}
+\hspace{2.75cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Name} \> Michael "Big Mike" Tucker\\ % Referee name
+{\bf Company} \> Burbank Buy More \\ % Referee company
+{\bf Position} \> Store Manager \\ % Referee job title 
+{\bf Contact} \> \href{mailto:mike@buymore.com}{mike@buymore.com} % Referee contact information
+\end{tabbing}}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
